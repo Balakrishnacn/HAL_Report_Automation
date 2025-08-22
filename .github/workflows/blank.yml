@@ -1,8 +1,6 @@
 name: Upload Azure Data to Storage
 
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight
+on: # Runs every day at midnight
   workflow_dispatch:
 
 jobs:
